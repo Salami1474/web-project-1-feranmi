@@ -89,6 +89,23 @@
         <label for="what-is-arsenal's-colour">What is Arsenal's colour?</label>
         <input type="color" id="what-is-arsenal's-colour" name="what-is-arsenal's-colour" required />
         <br /><br />
+
+        <fieldset form="bonus-question">
+          <legend>Bonus Questions</legend>
+          <label for="bonus-question">What year was Arsenal founded?</label>
+          <input type="number" id="bonus-question" name="bonus-question" min="1800" max="2000" required />
+          <br /><br />
+          <legend>Who is Arsenal's Greatest Goal-Scorer?</legend>
+          <select id="greatest-goal-scorer" name="greatest-goal-scorer" required>
+            <option value="Choose-an-option">Choose An Option</option>
+            <option value="Thierry Henry">Thierry Henry</option>
+            <option value="Ian Wright">Ian Wright</option>
+            <option value="Dennis Bergkamp">Dennis Bergkamp</option>
+            <option value="Robin van Persie">Robin van Persie</option>
+            <option value="Pierre Emerick Aubameyang">Pierre Emerick Aubameyang</option>
+          </select>
+          <br /><br />
+        </fieldset>
     </form>
 </body>
 </html>
