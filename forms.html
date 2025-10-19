@@ -4,24 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arsenal Survey</title>
+    
 </head>
-				<a href="index.html">Home</a> |
+<nav>
+				<h1 style="text-align:center">
+        <a href="index.html">Home</a> |
         <a href="trophies.html">Trophies</a> |
         <a href="roster.html">Team Players</a> |
         <a href="arsenal-icons.html">Arsenal Icons</a> |
-				<a href="forms.html">Arsenal Survey</a> |
+				<a href="forms.html">Arsenal Survey</a> 
+</nav>
 <body>
-    <h1>Arsenal Fan Survey</h1>
+  <header>
+    <h1 style="text-align:center">Arsenal Fan Survey</h1>
     <br />
-    <img src="Images/arsenal2.jpg" alt="Arsenal Logo" width="300" height="250">
-    <h2>Show us if you are a true Arsenal Fan!</h2>
+    <img src="Images/arsenal2.jpg" alt="Arsenal Logo" width="300" height="250" style="display:block; margin-left:auto; margin-right:auto;"/>
+    <h2 style="text-align:center">Show us if you are a true Arsenal Fan!</h2>
 
-    <p>
+    <p style="text-align:center">
       <strong>DISCLAIMER</strong>: This is a school project, DO NOT put any private information in
       this survey!
     </p>
+</header>
+<main>
     <br />
-    <p>
+    <p style="text-align:center">
       Please fill out all the questions below:
     </p>
 
@@ -30,11 +37,11 @@
         <legend>Contact Info</legend>
         <label for="first-name">First Name:</label>
         <input type="text" id="first-name" name="first-name" required />
-        <br /><br />
+        
         <label for="last-name">Last Name:</label>
         <input type="text" id="last-name" name="last-name" required />
         <br /><br />
-        <label for="email">Email</label>
+        <label for="email">Email (ex. user@domain.com)</label>
         <input type="email" id="email" name="email" required />
         <br /><br />
         <label for="age">Age:</label>
@@ -89,6 +96,8 @@
         <label for="what-is-arsenal's-colour">What is Arsenal's colour?</label>
         <input type="color" id="what-is-arsenal's-colour" name="what-is-arsenal's-colour" required />
         <br /><br />
+      </fieldset>
+      <br />
 
         <fieldset form="bonus-question">
           <legend>Bonus Questions</legend>
@@ -103,9 +112,34 @@
             <option value="Dennis Bergkamp">Dennis Bergkamp</option>
             <option value="Robin van Persie">Robin van Persie</option>
             <option value="Pierre Emerick Aubameyang">Pierre Emerick Aubameyang</option>
+            <br /><br />
           </select>
           <br /><br />
+          <label for="bonus-question">Who Currently has 100+ goal contributions for Arsenal at the age of 24?</label>
+          <br />
+          <input type="radio" id="bonus-question" name="bonus-question" value="Bukayo Saka" required /> Bukayo Saka
+          <br />
+          <input type="radio" id="bonus-question" name="bonus-question" value="Martin Odegaard" required /> Martin Odegaard
+          <br />
+          <input type="radio" id="bonus-question" name="bonus-question" value="Gabriel Martinelli" required /> Gabriel Martinelli
+          <br />
+          <input type="radio" id="bonus-question" name="bonus-question" value="Gabriel Jesus" required /> Gabriel Jesus
+          </select>
+          <br /><br />
+          <legend>Who is Arsenal's Captain?</legend>
+          <select id="arsenal-captain" name="arsenal-captain" required>
+            <option value="Choose-an-option">Choose An Option</option>
+            <option value="Bukayo Saka">Bukayo Saka</option>
+            <option value="Martin Odegaard">Martin Odegaard</option>
+            <option value="William Saliba">William Saliba</option>
+            <option value="Declan Rice">Declan Rice</option>
+            <option value="Gabriel">Gabriel</option>
         </fieldset>
     </form>
+</main>
+<footer>
+  <hr>
+  <p style="text-align:center"> &#169;>2025 Feranmi Adesanya. This is a school project and is not affiliated with Arsenal Football Club.</p>
+</footer>
 </body>
 </html>
